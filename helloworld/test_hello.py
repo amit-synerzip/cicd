@@ -1,4 +1,4 @@
-import add
 
 def test_add():
-    assert add(10,15) == 25
+    res = add(10,15)
+    assert  res == 25
