@@ -1,4 +1,3 @@
-import helloworld
 import add
 
 def test_add():
