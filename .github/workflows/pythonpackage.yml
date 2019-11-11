@@ -5,7 +5,8 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest strategy:
+    runs-on: ubuntu-latest
+    strategy:
       max-parallel: 2
       matrix:
         python-version: [2.7]
